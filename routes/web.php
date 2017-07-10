@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Route::get('/', 'HomeController@index');
+
+//Route::get('/', function() {
+//    $users = ['users' => ['username' => 'hoi']];
+//    return view('home', $users);
+//    return view('home', ['users' => ['username' => 'hoi']]);
+//});
